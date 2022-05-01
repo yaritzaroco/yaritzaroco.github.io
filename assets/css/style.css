@@ -77,6 +77,11 @@ article {
     image-resolution: 300px 300px   ;
 
 }
+.colaboraciones {
+    font-size: 1.5rem;
+    color: aliceblue;
+}
+
 /*formulario*/
 .container-fluid bg-secondary {
     margin-top: 0px;
@@ -97,6 +102,13 @@ footer {
     background-color: #000001;
     color: azure;
     text-align: center;
+    padding: 0%;
+}
+footer p {
+    margin-bottom: 0%;
+}
+footer a {
+    color: antiquewhite;
 }
 
 
