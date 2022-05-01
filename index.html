@@ -11,10 +11,23 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&family=Open+Sans:wght@300&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/eebd51e52a.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0%;
+            font-style: normal;
+        }
+
+        .card-img-top {
+            height: 250px;
+            width: 250px;
+        }
+    </style>
 </head>
 
 <body>
@@ -27,8 +40,8 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active text-light" aria-current="page" href="index.html">Mi Perfil</a>
-                    <a class="nav-link text-light" href="#">Trabajos</a>
+                    <a class="nav-link active text-light" aria-current="page" href="#sobremi">Sobre mí</a>
+                    <a class="nav-link text-light" href="#trabajos">Trabajos</a>
                     <a class="nav-link text-light" href="#">Hobbies</a>
                     <a class="nav-link disabled" href="#" tabindex="-1">Contacto</a>
                 </div>
@@ -47,8 +60,7 @@
     </header>
 
     <section>
-        <h2>Sobre mí</h2>
-
+        <h2 id="sobremi">Sobre mí</h2>
         <p class="body"> Tengo 32 años y soy de la V región, llevo 10 años trabajando como docente, pero siempre me
             esforzado por crecer y aprender cosas nuevas.</p>
         <p class="body"> Me autodenomino "profe distópica" porque creo que las distopías se parecen al mundo real. Me
@@ -64,6 +76,35 @@
         <p class="body"> Actualmente, me encuentro estudiando nuevas tecnologías, por lo tanto nuevos lenguajes, para
             que en unfuturo pueda mezclar el lenguaje tecnológico y de desarrollador web con la pedagogía.</p>
     </section>
+    <article class="d-flex" id="trabajos">
+        <h2> Experiencia Laboral</h2>
+        <div class="trabajos1">
+            <ul>
+                <li> Enero 2021 : Confección Programa y Planificación asignatura “ Desarrollo Personal”, Primero a
+                    Cuarto Medio. “Fundación Educar para la Vida”.</li>
+                <li> Marzo del 2016 a la fecha: Profesora de Lenguaje, “Colegio Liahona El Belloto”, profesora de
+                    asignatura en niveles SIMCE y PTU. ( Diferentes Niveles, 4º Básico a 4º Medio).
+                    Proyecto de mejoramiento de la Comprensión Lectora.
+                    Gestora concurso de poesía al interior del establecimiento.
+                    2017-2018 Participación “El Mercurio de Los Estudiantes”
+                    2017 Capitán de reemplazo equipo de “Sociedad de debate Liahona”
+                </li>
+                <li> 2016 al 2019: Confección y revisión ocasional de Ensayos SIMCE, Oneduc.</li>
+            </ul>
+        </div>
+        <div class="trabajos2">
+            <ul>
+                <li>Marzo 2015 a febrero 2016: Profesora de Lenguaje, “Colegio Los Leones de Quilpué”, profesora de
+                    asignatura en séptimo y segundo medio, preparación SIMCE de quinto básico a segundo medio y jefatura
+                    de un séptimo básico.</li>
+                <li>Mayo 2014 a febrero 2015: Profesora de Lenguaje, “Colegio Inglés”, Quintero.
+                    Profesora de asignatura desde primero a cuarto medio. Preparando SIMCE y PSU.
+                </li>
+                <li>Marzo a mayo del 2014:Reemplazo Profesora de Lenguaje, "Colegio Hispano", Villa Alemana.
+                    Profesora de asignatura y preparación de SIMCE en Quinto y Sexto básico
+                </li>
+        </div>
+    </article>
     <section class="trabajos">
         <h2>Trabajos con los alumnos</h2>
         <div class="row">
@@ -90,9 +131,9 @@
             </div>
         </div>
     </section>
-    <div class="container-fluid bg-secondary">
+    <section class="form">
         <form class="text-center">
-            <h4 class="text-light pt-3 mt-3">Contacto</h4>
+            <h4 class="text-light pt-2 mt-2">Contacto</h4>
             <div class="box my-3 mx-3">
                 <label for="exampleFormControlInput1" class="form-label">Dirección de correo electrónico</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
@@ -106,8 +147,13 @@
                 <button type="submit" class="btn btn-light">Enviar</button>
             </div>
         </form>
-    </div>
+    </section>
+    <footer>
 
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 
 </body>
 

@@ -1,17 +1,8 @@
-/* body */
-body {
-    margin: 0%;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    text-align: left;
-    background-color: rgb(7, 6, 6);
-}
-
-
 /* header */
 header {
-    background-color: #49505736;
+    background-color: #000001;
     height: 435px;
+    color: azure;
 }
 
 .parrafo1 {
@@ -22,8 +13,6 @@ header {
     text-align: center;
     margin-top: 10%;
     height: auto;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Open Sans', sans-serif;
 }
 
 /* section 1 */
@@ -31,37 +20,42 @@ header {
 section {
     background-color: #191c20f7;
     color: rgb(196, 195, 195);
-    margin: auto;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    padding: 5%;
-    font-weight: 500;
+    padding: 20px;
     text-align: center;
 }
+
+/* experiencia laboral */
+article {
+    padding: 20px;
+    background-color: #dde4eff7;
+    color: rgb(85, 84, 84);
+    text-align: justify;
+
+}
+
 /* Cards */
 .trabajos {
     background-color: #49505736;
     color: grey;
 }
+
 .col {
-    width:fit-content
+    width: fit-content
 }
+
 .card-img-top {
-    height: 250px;
-    background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
-    height: auto;
+    height: 250px;
+    width: 250px;
 }
+
 /*formulario*/
-.container-fluid bg-secondary{
+.container-fluid bg-secondary {
     margin-top: 0px;
 
 }
 
 .form-label {
     color: rgb(196, 195, 195);
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Open Sans', sans-serif;
 
 }
