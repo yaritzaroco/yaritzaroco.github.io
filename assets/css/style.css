@@ -43,23 +43,32 @@ article {
     width: 250px;
 }
 
+
 .img-top {
     background-position: center;
     height: 300px;
     width: 250px;  
 }
+
+/* estudios */
 .imagenlogo {
     float: left;
     width: 40%;
 }
 .texto1 {
+    margin-top: 10%;
     float: right;
     width:55%;
     text-align: left;
 }
+/* hobbies */
 .entretencion {
     align-items: center;
 }
+.linkimagen {
+    width:30%
+}
+
 /*formulario*/
 .container-fluid bg-secondary {
     margin-top: 0px;
@@ -71,14 +80,14 @@ article {
 
 }
 
+.d-flex {
+    font-size: 20px;
+}
+
 /* footer */
 footer {
     background-color: #000001;
     color: azure;
     text-align: center;
 }
-/* habilidades */
 
-.d-flex {
-    font-size: 20px;
-}
