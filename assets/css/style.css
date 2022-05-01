@@ -1,18 +1,12 @@
 /* header */
 header {
     background-color: #000001;
-    height: 435px;
-    color: azure;
-}
-
-.parrafo1 {
-    font-weight: 200;
-    float: left;
-    width: 49%;
-    color: grey;
-    text-align: center;
-    margin-top: 10%;
-    height: auto;
+    color: rgb(214, 214, 214);
+    text-align: end;
+    background-image: url('../img/yariprofe.jpg');
+    background-size: cover;
+    height: 30rem;
+    text-shadow: #9797a8 2px 2px;
 }
 
 /* section 1 */
@@ -45,10 +39,18 @@ article {
 
 .card-img-top {
     background-position: center;
-    height: 250px;
+    height: 300px;
     width: 250px;
 }
 
+.img-top {
+    background-position: center;
+    height: 300px;
+    width: 250px;  
+}
+.entretencion {
+    align-items: center;
+}
 /*formulario*/
 .container-fluid bg-secondary {
     margin-top: 0px;
@@ -58,4 +60,11 @@ article {
 .form-label {
     color: rgb(196, 195, 195);
 
+}
+
+/* footer */
+footer {
+    background-color: #000001;
+    color: azure;
+    text-align: center;
 }

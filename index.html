@@ -16,6 +16,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/eebd51e52a.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="assets/img/android-chrome-192x192.png">
+
     <style>
         body {
             font-family: 'Roboto', sans-serif;
@@ -31,8 +33,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-xl navbar-light bg-secondary">
-        <div class="container-fluid text-light">
+    <nav class="navbar navbar-expand-xl navbar-expand-sm navbar-light bg-secondary">
+        <div class="container text-light">
             <img src="assets/img/android-chrome-192x192.png" height="50" alt="logo1">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,22 +44,20 @@
                 <div class="navbar-nav">
                     <a class="nav-link active text-light" aria-current="page" href="#sobremi">Sobre mí</a>
                     <a class="nav-link text-light" href="#trabajos">Trabajos</a>
-                    <a class="nav-link text-light" href="#">Hobbies</a>
-                    <a class="nav-link disabled" href="#" tabindex="-1">Contacto</a>
+                    <a class="nav-link text-light" href="#hobbies">Hobbies</a>
+                    <a class="nav-link disabled" href="#contacto" tabindex="-1">Contacto</a>
                 </div>
             </div>
         </div>
     </nav>
-    <header class="d-flex">
-        <div class="parrafo1">
-            <h1>Yaritza Roco León</h1>
-            <p class="lead">Una profesora viviendo en un mundo distópico</p>
-            <p> <em>Docente de Lengua y Literatura titulada el año 2013 en la "Universidad de Playa Ancha"</em></p>
-        </div>
-        <img src="assets/img/yariprofe.jpg" class="img-fluid" alt="img1">
 
+<header>
+    <h1>Yaritza Roco León</h1>
+    <h2>Profesora de Lenguaje </h2>
 
-    </header>
+    
+</header>
+
 
     <section>
         <h2 id="sobremi">Sobre mí</h2>
@@ -76,7 +76,7 @@
         <p class="body"> Actualmente, me encuentro estudiando nuevas tecnologías, por lo tanto nuevos lenguajes, para
             que en unfuturo pueda mezclar el lenguaje tecnológico y de desarrollador web con la pedagogía.</p>
     </section>
-    <article class="d-flex" id="trabajos">
+    <article id="trabajos">
         <h2> Experiencia Laboral</h2>
         <div class="trabajos1">
             <ul>
@@ -108,21 +108,21 @@
     <section class="trabajos">
         <h2>Trabajos con los alumnos</h2>
         <div class="row">
-            <div class="col 12 col sm-4">
+            <div class="col 12 col-sm-4">
                 <img src="assets/img/ALICIA.jpg" class="card-img-top" alt="img2">
                 <div class="card-body">
                     <h3 class="card-title">Representaciones</h3>
                     <p class="card-text">Con la literatura podemos ser felices</p>
                 </div>
             </div>
-            <div class="col 12 col sm-4">
+            <div class="col 12 col-sm-4 py-2">
                 <img src="assets/img/et.jpg" class="card-img-top" alt="img3">
                 <div class="card-body">
                     <h3 class="card-title">Personajes</h3>
                     <p class="card-text">Podemos ser Malvados</p>
                 </div>
             </div>
-            <div class="col 12 col sm-4">
+            <div class="col 12 col-sm-4 py-2">
                 <img src="assets/img/lapbook.jpg" class="card-img-top" alt="img4">
                 <div class="card-body">
                     <h3 class="card-title">Creaciones</h3>
@@ -131,7 +131,50 @@
             </div>
         </div>
     </section>
-    <section class="form">
+    <section class=entretención id="hobbies">
+        <h2> Entretenciones</h2>
+        <div class="row">
+            <div class="col-12 col-sm-4 py-2">
+                <div class="card">
+                    <div class="image-top">
+                        <img src="assets/img/viaje.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Viajes</h5>
+                        <p class="card-text">Me encanta viajar </p>
+                        <a href="#" class="btn btn-secondary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 py-2">
+                <div class="card">
+                    <div class="image-top">
+                        <img src="assets/img/comida.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Probar sushi</h5>
+                        <p class="card-text">Amor al sushi chileno</p>
+                        <a href="#" class="btn btn-secondary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 py-2">
+                <div class="card">
+                    <div class="image-top">
+                        <img src="assets/img/yoinfluencer.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Influencer </h5>
+                        <p class="card-text">Amor al sushi chileno</p>
+                        <a href="#" class="btn btn-secondary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="form" id="contacto">
         <form class="text-center">
             <h4 class="text-light pt-2 mt-2">Contacto</h4>
             <div class="box my-3 mx-3">
@@ -149,7 +192,11 @@
         </form>
     </section>
     <footer>
-
+        <p>Yaritza Roco 2022</p>
+        <p><i class="fa-brands fa-whatsapp"></i> <a href="https://wa.me/+56967200203" target="_blank"
+                rel="noopener noreferrer">whatsapp</a>+56967200203</p>
+        <p> <i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/yaritza-roco-le%C3%B3n-a6b7aa6b"
+                target="_blank" rel="noopener noreferrer">linkedin</a>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
