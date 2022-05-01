@@ -42,8 +42,8 @@
                 <div class="navbar-nav">
                     <a class="nav-link active text-light" aria-current="page" href="#sobremi">Sobre mí</a>
                     <a class="nav-link text-light" href="#trabajos">Trabajos</a>
-                    <a class="nav-link text-light" href="#">Hobbies</a>
-                    <a class="nav-link disabled" href="#" tabindex="-1">Contacto</a>
+                    <a class="nav-link text-light" href="#contacto">Contacto</a>
+                    <a class="nav-link disabled" href="#">Hobbies</a>
                 </div>
             </div>
         </div>
@@ -59,8 +59,8 @@
 
     </header>
 
-    <section>
-        <h2 id="sobremi">Sobre mí</h2>
+    <section id="sobremi">
+        <h2 >Sobre mí</h2>
         <p class="body"> Tengo 32 años y soy de la V región, llevo 10 años trabajando como docente, pero siempre me
             esforzado por crecer y aprender cosas nuevas.</p>
         <p class="body"> Me autodenomino "profe distópica" porque creo que las distopías se parecen al mundo real. Me
@@ -76,7 +76,7 @@
         <p class="body"> Actualmente, me encuentro estudiando nuevas tecnologías, por lo tanto nuevos lenguajes, para
             que en unfuturo pueda mezclar el lenguaje tecnológico y de desarrollador web con la pedagogía.</p>
     </section>
-    <article class="d-flex" id="trabajos">
+    <article id="trabajos" class="d-flex">
         <h2> Experiencia Laboral</h2>
         <div class="trabajos1">
             <ul>
@@ -105,7 +105,7 @@
                 </li>
         </div>
     </article>
-    <section class="trabajos">
+    <section id="trabajos">
         <h2>Trabajos con los alumnos</h2>
         <div class="row">
             <div class="col 12 col sm-4">
@@ -131,16 +131,18 @@
             </div>
         </div>
     </section>
-    <section class="form">
+
+ 
+    <section id="contacto" class="container-fluid w-100 bg-secondary">
         <form class="text-center">
             <h4 class="text-light pt-2 mt-2">Contacto</h4>
             <div class="box my-3 mx-3">
                 <label for="exampleFormControlInput1" class="form-label">Dirección de correo electrónico</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
             </div>
             <div class="text my-3 mx-3">
                 <label for="Textarea1" class="form-label">Escribe aquí</label>
-                <textarea class="form-control" id="Textarea1" rows="3"></textarea>
+                <textarea class="form-control" id="Textarea1" rows="3" required></textarea>
             </div>
 
             <div class="button my-3 pb-3">
@@ -148,9 +150,13 @@
             </div>
         </form>
     </section>
-    <footer>
 
-    </footer>
+    <footer class="text-center bg-dark text-light p-4">
+        <p class="mb-0">
+          © Yaritza Roco León 2022. Todos los derechos reservados.
+        </p>
+      </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
