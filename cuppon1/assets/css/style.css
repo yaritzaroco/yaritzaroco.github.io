@@ -1,0 +1,49 @@
+.card-body {
+    font-family: 'Roboto';
+}
+
+.navbar-light .navbar-toggler {
+    border-color: #FFFFFF80;
+}
+
+button {
+    opacity: 0.3;
+}
+
+.navbar-nav {
+    font-weight: 500;
+}
+
+.card-body h5 {
+    color: #212529;
+    font-weight: 300;
+    font-size: 18pt;
+}
+
+.card-body p {
+    color: #707070;
+    font-size: 14pt;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.icon {
+    color: #707070;
+    font-size: 11pt;
+    font-weight: 300;
+}
+
+.text-center {
+    color: #707070;
+    font-size: 13pt;
+}
+
+h4 {
+    font-size: 130%;
+    font-weight: 500;
+}
+
+.btn {
+    opacity: 1;
+    font-weight: 500;
+}
