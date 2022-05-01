@@ -2,10 +2,10 @@
 header {
     background-color: #000001;
     color: rgb(214, 214, 214);
-    text-align: end;
+    text-align: right;
     background-image: url('../img/yariprofe.jpg');
-    background-size: cover;
-    height: 30rem;
+    background-size:cover;
+    height: 1200px;
     text-shadow: #9797a8 2px 2px;
 }
 
