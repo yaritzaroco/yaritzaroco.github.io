@@ -61,7 +61,13 @@ article {
     width:55%;
     text-align: left;
 }
+.fa-brands, .fab {
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+    font-size: 3rem;
+}
 /* hobbies */
+
 .entretencion {
     align-items: center;
 }
