@@ -31,7 +31,7 @@
         }
 
         a {
-            color: lightcyan;
+            color: black;
         }
     </style>
 </head>
@@ -229,7 +229,7 @@
 
         </div>
     </section>
-    
+
     <section class="text-center bg-secondary" id="habilidades">
         <h2>HABILIDADES</h2>
         <hr>
@@ -257,32 +257,83 @@
     <section class=" portafolio bg-secondary" id="portafolio">
         <h2>PORTAFOLIO</h2>
         <hr>
-        <div class="row">
-            <div class="linkimagen">    
-                <img src="assets/img/bs-img.png" class="img-fluid" alt="bs">
-                <a href="cuppon1/index.html" target="_blank" >Bootstrap </a>
-
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 py-3 my-3">
+                    <article class="card">
+                        <img src="assets/img/cv.png" alt="cupon1">
+                        <div class="card-body">
+                            <p>CV creado en html</p>
+                            <hr>
+                            <div class="enlace">
+                                <a href="/cuppon1/index.html">HTML</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-xl-4 py-3 my-3">
+                    <article class="card">
+                        <img src="assets/img/css_img.png" alt="css">
+                        <div class="card-body">
+                            <p>Lading page</p>
+                            <hr>
+                            <div class="enlace">
+                                <a href="/proyectocsstienda/index.html">css</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-xl-4 py-3 my-3">
+                    <article class="card">
+                        <img src="assets/img/iguanapage.png" alt="iguanapage">
+                        <div class="card-body">
+                            <p>Posicionamiento css </p>
+                            <hr>
+                            <div class="enlace">
+                                <a href="iguanapage/index.html">posicionamiento</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-xl-4 py-3 my-3">
+                    <article class="card">
+                        <img src="assets/img/bs-img.png" alt="bootstrap">
+                        <div class="card-body">
+                            <p>Cards creadas usando bootstrap</p>
+                            <hr>
+                            <div class="enlace">
+                                <a href="/cuppon1/index.html">bs</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-xl-4 py-3 my-3">
+                    <article class="card">
+                        <img src="assets/img/portadagit.png" alt="portadagit">
+                        <div class="card-body">
+                            <p>CV creado en html</p>
+                            <hr>
+                            <div class="enlace">
+                                <a href="fdsw-github/index.html">git</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
             </div>
-            <div class="linkimagen">
-                <img src="assets/img/css_img.png" class="img-fluid" alt="css">
-                <a href="proyectocsstienda/index.html" target="_blank">Css</a>
-            </div>
-
         </div>
     </section>
-
     <section class="form" id="contacto">
         <form class="text-center">
             <h4 class="text-light pt-2 mt-2">Contacto</h4>
             <div class="box my-3 mx-3">
-                <label for="exampleFormControlInput1" class="form-label">Dirección de correo electrónico</label>
+                <label for="exampleFormControlInput1" class="form-label">Dirección de correo
+                    electrónico</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
             <div class="text my-3 mx-3">
                 <label for="Textarea1" class="form-label">Escribe aquí</label>
                 <textarea class="form-control" id="Textarea1" rows="3"></textarea>
             </div>
-
             <div class="button my-3 pb-3">
                 <button type="submit" class="btn btn-light">Enviar</button>
             </div>
