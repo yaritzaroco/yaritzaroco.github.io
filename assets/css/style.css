@@ -73,10 +73,9 @@ article {
 .portafolio {
     padding: 10px;
 }
-.linkimagen {
-   padding: 10px;
-    width: 49%;
-    color: #9797a8;
+.portafolio, img {
+    image-resolution: 300px 300px   ;
+
 }
 /*formulario*/
 .container-fluid bg-secondary {
