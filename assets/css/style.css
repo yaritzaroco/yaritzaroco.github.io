@@ -48,6 +48,15 @@ article {
     height: 300px;
     width: 250px;  
 }
+.imagenlogo {
+    float: left;
+    width: 40%;
+}
+.texto1 {
+    float: right;
+    width:55%;
+    text-align: left;
+}
 .entretencion {
     align-items: center;
 }
@@ -67,4 +76,9 @@ footer {
     background-color: #000001;
     color: azure;
     text-align: center;
+}
+/* habilidades */
+
+.d-flex {
+    font-size: 20px;
 }

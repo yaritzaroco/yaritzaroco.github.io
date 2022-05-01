@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -29,6 +29,10 @@
             height: 250px;
             width: 250px;
         }
+
+        a {
+            color: lightcyan;
+        }
     </style>
 </head>
 
@@ -46,6 +50,8 @@
                     <a class="nav-link text-light" href="#trabajos">Trabajos</a>
                     <a class="nav-link text-light" href="#estudios">Estudios</a>
                     <a class="nav-link text-light" href="#hobbies">Hobbies</a>
+                    <a class="nav-link text-light" href="#habilidades">Habilidades</a>
+                    <a class="nav-link text-light" href="#portafolio">Portafolio</a>
                     <a class="nav-link disabled" href="#contacto" tabindex="-1">Contacto</a>
                 </div>
             </div>
@@ -60,7 +66,8 @@
     </header>
 
     <section>
-        <h2 id="sobremi">Sobre mí</h2>
+        <h2 id="sobremi">SOBRE MÍ</h2>
+        <hr>
         <p class="body"> Tengo 32 años y soy de la V región, llevo 10 años trabajando como docente, pero siempre me
             esforzado por crecer y aprender cosas nuevas.</p>
         <p class="body"> Me autodenomino "profe distópica" porque creo que las distopías se parecen al mundo real. Me
@@ -77,7 +84,8 @@
             que en unfuturo pueda mezclar el lenguaje tecnológico y de desarrollador web con la pedagogía.</p>
     </section>
     <article id="trabajos">
-        <h2> Experiencia Laboral</h2>
+        <h2> EXPERIENCIA</h2>
+        <hr>
         <div class="trabajos1">
             <ul>
                 <li> Enero 2021 : Confección Programa y Planificación asignatura “ Desarrollo Personal”, Primero a
@@ -103,7 +111,8 @@
         </div>
     </article>
     <section class="trabajos">
-        <h2>Trabajos con los alumnos</h2>
+        <h2>ALUMNOS</h2>
+        <hr>
         <div class="row">
             <div class="col 12 col-sm-4">
                 <img src="assets/img/ALICIA.jpg" class="card-img-top" alt="img2">
@@ -130,11 +139,21 @@
     </section>
     <section id="estudios">
         <div class="estudios1 ">
-                <h2> Estudios</h2>
+            <h2> ESTUDIOS</h2>
+            <hr>
+            <div class="study">
+                <div class="imagenlogo">
+                    <img src="assets/img/desafio-latam-slogan-fondo-blanco.png" class="img-fluid" width="30%" text-left
+                        alt="logo">
+                </div>
+                <div class="texto1">
                     <p>Actualmente estudiando "Desarrollador Front end react" en Academia Desafío Latam</p>
                     <p>Desde el año 2013 a la fecha he realizado diversos cursos de educación en Universidad de Chile y
                         CPEIP</p>
                     <p>En el año 2013 titulada de Pedagogía en Castellano en la Universidad de Playa Ancha</p>
+                    <hr>
+                </div>
+            </div>
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -149,10 +168,11 @@
                 </div>
             </div>
         </div>
-        </div>
+
     </section>
-    <section class=entretención id="hobbies">
-        <h2> Entretenciones</h2>
+    <section class="entretencion bg-secondary" id="hobbies">
+        <h2> HOBBIES</h2>
+        <hr>
         <div class="row">
             <div class="col-12 col-sm-4 py-2">
                 <div class="card">
@@ -192,37 +212,77 @@
             </div>
 
         </div>
+    </section>
+    <section class="text-center bg-secondary" id="habilidades">
+        <h2>HABILIDADES</h2>
+        <hr>
+        <div class="d-flex row">
+            <div class="col icon mx-3 px- 3 text-center">
+                <i class="fa-solid fa-people-group"></i>
+                <p>Trabajo en equipo</p>
+            </div>
+            <div class="col icon mx-3 text-center">
+                <i class="fa-solid fa-person-chalkboard"></i>
+                <p>Educación</p>
+            </div>
+            <div class="col icon px-2 mx-3 text-center">
+                <i class="fa-solid fa-briefcase"></i>
+                <p>Responsabilidad</p>
+            </div>
+            <div class="col icon px-2 mx-3 text-center">
+                <i class="fa-solid fa-laptop-file"></i>
+                <p>Dispuesta a aprender</p>
+            </div>
+        </div>
+        <hr>
 
+    </section>
+    <section class="portafolio bg-secondary" id="portafolio">
+        <h2>PORTAFOLIO</h2>
+        <hr>
+        <div class="linkimagen">
+            <img src="assets/img/bs-img.png" class="img-fluid" alt="bs">
+            <a href="cupponio/cuppon1/index.html" target="_blank" text-light>Bootstrap </a>
+        </div>
+        <div class="linkimagen">
+            <img src="assets/img/css_img.png" class="img-fluid" alt="css">
+            <a href="cssyroco/proyectocsstienda/index.html" target="_blank">Css</a>
+            <div></div>
+    </section>
 
-        <section class="form" id="contacto">
-            <form class="text-center">
-                <h4 class="text-light pt-2 mt-2">Contacto</h4>
-                <div class="box my-3 mx-3">
-                    <label for="exampleFormControlInput1" class="form-label">Dirección de correo electrónico</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1"
-                        placeholder="name@example.com">
-                </div>
-                <div class="text my-3 mx-3">
-                    <label for="Textarea1" class="form-label">Escribe aquí</label>
-                    <textarea class="form-control" id="Textarea1" rows="3"></textarea>
-                </div>
+    <section class="form" id="contacto">
+        <form class="text-center">
+            <h4 class="text-light pt-2 mt-2">Contacto</h4>
+            <div class="box my-3 mx-3">
+                <label for="exampleFormControlInput1" class="form-label">Dirección de correo electrónico</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="text my-3 mx-3">
+                <label for="Textarea1" class="form-label">Escribe aquí</label>
+                <textarea class="form-control" id="Textarea1" rows="3"></textarea>
+            </div>
 
-                <div class="button my-3 pb-3">
-                    <button type="submit" class="btn btn-light">Enviar</button>
-                </div>
-            </form>
-        </section>
-        <footer>
-            <p>Yaritza Roco 2022</p>
-            <p><i class="fa-brands fa-whatsapp"></i> <a href="https://wa.me/+56967200203" target="_blank"
-                    rel="noopener noreferrer">whatsapp</a>+56967200203</p>
-            <p> <i class="fa-brands fa-linkedin"></i><a
-                    href="https://www.linkedin.com/in/yaritza-roco-le%C3%B3n-a6b7aa6b" target="_blank"
-                    rel="noopener noreferrer">linkedin</a>
-        </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-            crossorigin="anonymous"></script>
+            <div class="button my-3 pb-3">
+                <button type="submit" class="btn btn-light">Enviar</button>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <p>Yaritza Roco 2022</p>
+        <p><i class="fa-brands fa-whatsapp"></i> <a href="https://wa.me/+56967200203" target="_blank"
+                rel="noopener noreferrer">whatsapp</a>+56967200203</p>
+        <p> <i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/yaritza-roco-le%C3%B3n-a6b7aa6b"
+                target="_blank" rel="noopener noreferrer">linkedin</a>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
 
 </body>
 
