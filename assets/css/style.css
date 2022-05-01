@@ -1,3 +1,13 @@
+/* body */
+body {
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    background-color: rgb(7, 6, 6);
+}
+
+
 /* header */
 header {
     background-color: #49505736;
@@ -42,4 +52,16 @@ section {
     background-size: cover;
     background-position: center;
     height: auto;
+}
+/*formulario*/
+.container-fluid bg-secondary{
+    margin-top: 0px;
+
+}
+
+.form-label {
+    color: rgb(196, 195, 195);
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+
 }
