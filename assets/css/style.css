@@ -69,6 +69,15 @@ article {
     width:30%
 }
 
+/* portafolio */
+.portafolio {
+    padding: 10px;
+}
+.linkimagen {
+   padding: 10px;
+    width: 49%;
+    color: #9797a8;
+}
 /*formulario*/
 .container-fluid bg-secondary {
     margin-top: 0px;
@@ -90,4 +99,5 @@ footer {
     color: azure;
     text-align: center;
 }
+
 
