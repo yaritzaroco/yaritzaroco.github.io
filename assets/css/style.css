@@ -1,15 +1,16 @@
 /* header */
 header {
     background-color: #000001;
-    color: rgb(214, 214, 214);
-    text-align: right;
     background-image: url("../img/yariprofe3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    color: rgb(214, 214, 214);
+    text-align: right;
     text-shadow: #9797a8 2px 2px;
-    height: 750px;
+    margin-bottom: 0%;
+    height:750px;
 
 }
 
