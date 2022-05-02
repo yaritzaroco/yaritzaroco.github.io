@@ -3,10 +3,14 @@ header {
     background-color: #000001;
     color: rgb(214, 214, 214);
     text-align: right;
-    background-image: url('../img/yariprofe.jpg');
-    background-size:cover;
-    height: 1200px;
+    background-image: url("../img/yariprofe3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
     text-shadow: #9797a8 2px 2px;
+    height: 800px;
+
 }
 
 /* section 1 */
@@ -47,7 +51,7 @@ article {
 .img-top {
     background-position: center;
     height: 300px;
-    width: 250px;  
+    width: 250px;
 }
 
 /* estudios */
@@ -55,34 +59,42 @@ article {
     float: left;
     width: 40%;
 }
+
 .texto1 {
     margin-top: 10%;
     float: right;
-    width:55%;
+    width: 55%;
     text-align: left;
 }
-.fa-brands, .fab {
+
+.fa-brands,
+.fab {
     font-family: "Font Awesome 6 Brands";
     font-weight: 400;
     font-size: 3rem;
 }
+
 /* hobbies */
 
 .entretencion {
     align-items: center;
 }
+
 .linkimagen {
-    width:30%
+    width: 30%
 }
 
 /* portafolio */
 .portafolio {
     padding: 10px;
 }
-.portafolio, img {
-    image-resolution: 300px 300px   ;
+
+.portafolio,
+img {
+    image-resolution: 300px 300px;
 
 }
+
 .colaboraciones {
     font-size: 1.5rem;
     color: aliceblue;
@@ -110,11 +122,11 @@ footer {
     text-align: center;
     padding: 0%;
 }
+
 footer p {
     margin-bottom: 0%;
 }
+
 footer a {
     color: antiquewhite;
 }
-
-
